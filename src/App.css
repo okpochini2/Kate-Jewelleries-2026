@@ -32,6 +32,7 @@ img {
 .header {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   background: black;
   color: white;
@@ -39,12 +40,14 @@ img {
   justify-content: space-between;
   padding: 10px 15px;
   z-index: 1000;
+  overflow: hidden;
 }
 
 .left {
   display: flex;
   align-items: center;
   gap: 6px;
+  max-width: 80%;
 }
 
 .brand{
@@ -69,12 +72,13 @@ img {
 }
 
 .toggle {
-  width: 22px;
-  height: 22px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   filter: invert(1);
-  z-index: 2000;
+  z-index: 3000;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 /*nav*/
@@ -158,7 +162,7 @@ img {
 .profile-grid img {
   width: 100%;
   border-radius: 10px;
-  height: 200px;
+  height: 250px;
   object-fit: contain;
   background: wheat;
 }
@@ -201,7 +205,8 @@ footer p {
 
 @media (max-width: 480px) {
   .toggle {
-    width: 20px;
+    width: 30px;
+    height: 30px;
   }
 
   .big-logo {
@@ -228,21 +233,10 @@ footer p {
 .grid {
   grid-template-columns: repeat(4, 1fr);
 }
-
-.div{
-  margin-right: 680px;
-  margin-top: 7px;
-}
 }
 
 @media (min-width: 1025px) {
   .grid {
     grid-template-columns: repeat(5, 1fr);
   }
-
-  .div{
-  margin-right: 680px;
-  margin-top: 7px;
-  
-}
 }
