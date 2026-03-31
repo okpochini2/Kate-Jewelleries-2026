@@ -1,5 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "desination": "/"}
-  ]
+  "version":2
 }
