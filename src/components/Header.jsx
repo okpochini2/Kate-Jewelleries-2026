@@ -9,8 +9,10 @@ function Header() {
 
   return (
     <header className="header">
+      <div className="left">
       <img src={logo} className="logo" />
-      <div className="div">KATE-UJC</div>
+      <span className="brand">KATE UJC</span>
+      </div>
      
       <img 
       src={open ? closeIcon : openIcon}
