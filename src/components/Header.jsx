@@ -10,6 +10,7 @@ function Header() {
   return (
     <header className="header">
       <img src={logo} className="logo" />
+      <div className="div">KATE-UJC</div>
      
       <img 
       src={open ? closeIcon : openIcon}

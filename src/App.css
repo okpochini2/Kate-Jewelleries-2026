@@ -13,6 +13,11 @@ img {
   display: block;
 }
 
+.div{
+  margin-right: 680px;
+  margin-top: 7px;
+}
+
 .app {
   display: flex;
   flex-direction: column;
