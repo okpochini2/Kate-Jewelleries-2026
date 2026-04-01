@@ -6,7 +6,7 @@ function Home() {
     <div className="page home">
       <img src={logo} className="big-logo" alt="" />
 
-      <h1>KATE UNISEX JEWELLRIES COLLECTION</h1>
+      <h1>KATE UNISEX JEWELLERIES COLLECTION</h1>
 
       <Link to="/products">
         <button className="btn">Get Started</button>
